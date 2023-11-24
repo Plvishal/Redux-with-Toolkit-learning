@@ -31,6 +31,7 @@ const todoSlice = createSlice({
     },
   },
 });
+export const todoReducer = todoSlice.reducer;
 
 // Reducer using Redux
 // export function todoReducer(state=initialState, action){
