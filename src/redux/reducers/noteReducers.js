@@ -27,6 +27,7 @@ const noteSlice = createSlice({
   },
 });
 
+export const noteReducer = noteSlice.reducer;
 // Reducer using Redux
 // export function noteReducer(state = initialState, action) {
 //   switch (action.type) {
